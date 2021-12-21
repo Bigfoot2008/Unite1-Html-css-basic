@@ -5,6 +5,7 @@
   body{
       background-color: lightgray;
       font-family: sans-serif;
+      padding-top: 40px;
       
   }
   nav{ background: black; height: 52px; width: 100%; position: fixed; top: 0; left: 0;
@@ -13,7 +14,7 @@
 }
 nav ul ul{display: none; position: absolute; top: 100%; left: 0; width: 100%;
 }
-  nav ul li{position: relative; float: right; width: 15%; text-align: center;
+  nav ul li{position: relative; float: left; width: 15%; text-align: center;
 }
 
   nav ul li:hover ul{display: block;
@@ -158,11 +159,14 @@ float: right;
     }
 
 .footer {
-    padding-top: 20;
-    margin-top: 20;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
     background-color: black;
     position: absolute;
     left: 0%;
+    right: 0%;
 }
 
 
@@ -176,3 +180,45 @@ float: right;
     width: 410px;
     float: right;
     }
+    .shop_product {
+        text-align: center;
+    }
+    .shop_product a{
+        text-decoration: none;
+    } 
+    .shop_product h3 {
+        text-align: center;
+        font-weight: bold;
+        color:#45502d ;
+        font-size: 27px;
+        margin-top: 12px;
+    }
+    .shop_product strong {
+        text-align: center;
+        display: block;
+        color:#45502d ;
+        font-size: 17px;
+    } 
+
+.shop_product button {
+    text-align: center;
+    font-weight: bold;
+    color:#fff ;
+    font-size: 27px;
+    margin-top: 12px;
+background-color:#45502d ;
+}
+.shop_detail {
+
+}
+.shop_detail_inner img {
+float: left;
+}
+.shop_detail_inner button {
+    text-align: center;
+    font-weight: bold;
+    color:#fff ;
+    font-size: 27px;
+   
+background-color:#45502d 
+}
