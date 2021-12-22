@@ -50,6 +50,7 @@ nav ul li li:hover a{background: #000;color: #fff;}
     font-weight: bold;
     font-size: 30px;
     text-align: center;
+    color:black;
 }
 
 .h3page {
@@ -74,6 +75,7 @@ nav ul li li:hover a{background: #000;color: #fff;}
     font-style: normal;
     text-align: center;
 }
+
 
 .h5page {
     padding-top: 15px;
@@ -102,6 +104,7 @@ nav ul li li:hover a{background: #000;color: #fff;}
 .row {
     padding-top: 35px;
     padding-bottom: 80px;
+    align-content: center;
 }
 
 .columnl {
@@ -120,24 +123,35 @@ width: 410px;
 float: right;
 }
 
+.columnalfsection1 {
+    width: 650px;
+    float: right;
+}
+
+.columnalfsection2 {
+    margin-left: 60px;
+    width: 650px;
+    float: left;
+}
+
 .column1 {
-    width: 315px;
+    width: 310px;
     float: left;
     }
     
 .column2 {
-    margin-left: 20px;
-    width: 315px;
+    margin-left: 15px;
+    width: 310px;
     }
     
 .column3 {
-    margin-left: 20px;
-    width: 315px;
+    margin-left: 15px;
+    width: 310px;
     }
 
 .column4 {
-    margin-left: 20px;
-    width: 315px;
+    margin-left: 15px;
+    width: 310px;
     float: right;
     }
 
@@ -169,6 +183,17 @@ float: right;
     right: 0%;
 }
 
+.headlogo {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    background-color: black;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+}
+
 
 .columntextleft {
     width: 850px;
@@ -189,22 +214,22 @@ float: right;
     .shop_product h3 {
         text-align: center;
         font-weight: bold;
-        color:#45502d ;
-        font-size: 27px;
+        color:black;
+        font-size: 20px;
         margin-top: 12px;
     }
     .shop_product strong {
         text-align: center;
         display: block;
         color:#45502d ;
-        font-size: 17px;
+        font-size: 25px;
     } 
 
 .shop_product button {
     text-align: center;
     font-weight: bold;
     color:#fff ;
-    font-size: 27px;
+    font-size: 15px;
     margin-top: 12px;
 background-color:#45502d ;
 }
@@ -213,12 +238,13 @@ background-color:#45502d ;
 }
 .shop_detail_inner img {
 float: left;
+padding-right: 40px;
 }
 .shop_detail_inner button {
     text-align: center;
     font-weight: bold;
     color:#fff ;
-    font-size: 27px;
+    font-size: 20px;
    
 background-color:#45502d 
 }
